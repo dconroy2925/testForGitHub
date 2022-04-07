@@ -1,0 +1,25 @@
+public class book2 {
+
+	public static void main(String[] args) {
+		
+	class Book {
+		String title;
+		String author;
+		int numberOfPages;
+		String ISBN;
+		
+		Book(String tit, String aut, int num) {
+			title = tit; author = aut;
+			numberOfPages = num;
+			ISBN = "unknown";	
+		}
+		Book(String tit, String aut, int num, String isbn){
+			title = tit; author = aut;
+			numberOfPages = num;
+			ISBN = isbn;
+		}
+	}
+
+	}
+
+}
